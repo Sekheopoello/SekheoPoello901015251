@@ -1,0 +1,31 @@
+.root {
+    -fx-font-family: Times New Roman, serif fonts;
+}
+
+.flow-pane {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+    -fx-cursor: hand;
+    -fx-transition: transform 0.2s;
+}
+
+.image-view:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.button {
+    -fx-background-color: #0077CC;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
